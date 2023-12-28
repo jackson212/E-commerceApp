@@ -27,7 +27,7 @@ const orderSchema = new mongoose.Schema({
     phoneNo: {
       type: Number,
       required: true,
-    },
+    }
   },
   orderItems: [
     {
@@ -73,7 +73,7 @@ const orderSchema = new mongoose.Schema({
     type: Date,
     required: true,
   },
-  itemsPrice: {
+  itemsprice: {
     type: Number,
     required: true,
     default: 0,
